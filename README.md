@@ -78,7 +78,7 @@ docker-compose down
 ```
 
 ## 📂 Estrutura do Projeto
-
+```
 floodwatch/
 ├── src/                     # Código-fonte Java Spring Boot
 ├── db/
@@ -87,7 +87,7 @@ floodwatch/
 ├── docker-compose.yml       # Orquestração dos containers
 ├── target/                  # JAR gerado após build
 ├── README.md                # Documentação do projeto
-
+```
 ## ✅ Requisitos Atendidos
 
 | Requisito                         | Status |
