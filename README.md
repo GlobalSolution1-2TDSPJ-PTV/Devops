@@ -80,25 +80,24 @@ docker-compose down
 ## 📂 Estrutura do Projeto
 
 floodwatch/
-├── src/                   # Código-fonte Java Spring Boot
+├── src/                     # Código-fonte Java Spring Boot
 ├── db/
-│   └── Dockerfile         # Dockerfile do Oracle XE customizado
-├── Dockerfile             # Dockerfile da aplicação Java
-├── docker-compose.yml     # Orquestração dos containers
-├── target/                # JAR gerado após build
-├── README.md              # Documentação do projeto
+│   └── Dockerfile           # Dockerfile do Oracle XE customizado
+├── Dockerfile               # Dockerfile da aplicação Java
+├── docker-compose.yml       # Orquestração dos containers
+├── target/                  # JAR gerado após build
+├── README.md                # Documentação do projeto
 
 ## ✅ Requisitos Atendidos
-Requisito	Status
-CRUD completo da aplicação Java	✅
-Banco Oracle em container Dockerfile	✅
-Usuário não-root configurado no DB	✅
-Porta exposta (app:8080, db:1521)	✅
-Variáveis de ambiente usadas	✅
-Volume nomeado para persistência	✅
-Containers rodando em background	✅
-Testes via Swagger UI	✅
-Logs visíveis via terminal	✅
 
-
-
+| Requisito                         | Status |
+| --------------------------------- | :----: |
+| CRUD completo da aplicação Java   |   ✅   |
+| Banco Oracle em container Dockerfile|   ✅   |
+| Usuário não-root configurado no DB|   ✅   |
+| Porta exposta (app:8080, db:1521) |   ✅   |
+| Variáveis de ambiente usadas      |   ✅   |
+| Volume nomeado para persistência  |   ✅   |
+| Containers rodando em background  |   ✅   |
+| Testes via Swagger UI             |   ✅   |
+| Logs visíveis via terminal        |   ✅   |
