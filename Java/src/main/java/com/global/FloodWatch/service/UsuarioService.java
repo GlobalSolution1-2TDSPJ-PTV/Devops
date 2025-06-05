@@ -1,6 +1,5 @@
 package com.global.FloodWatch.service;
 
-import com.global.FloodWatch.config.security.TokenService;
 import com.global.FloodWatch.dto.UsuarioRequestDTO;
 import com.global.FloodWatch.dto.UsuarioResponseDTO;
 import com.global.FloodWatch.exception.ResourceNotFoundException;
