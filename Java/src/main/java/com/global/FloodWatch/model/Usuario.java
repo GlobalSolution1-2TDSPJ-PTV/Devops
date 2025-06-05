@@ -22,6 +22,7 @@ public class Usuario implements UserDetails {
 
     @Id
     @Column(columnDefinition = "RAW(16)")
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private String nome;
@@ -42,7 +43,7 @@ public class Usuario implements UserDetails {
     private Double longitude;
 
     @Column(name = "criado_em")
-    private LocalDateTime criadoEm;
+    private LocalDateTime criadoEm = LocalDateTime.now();
 
     @PrePersist
     public void prePersist() {
