@@ -1,0 +1,77 @@
+Teste de inserção de usuários
+
+{
+  "nome": "Maria Souza",
+  "email": "maria.so@example.com",
+  "senha": "senhaForte123",
+  "tipoUsuario": "DEFESA_CIVIL",
+  "telefone": "21998877665",
+  "latitude": -22.906847,
+  "longitude": -43.172897
+}
+
+{
+  "nome": "Maria Oliveira",
+  "email": "maria.ol@example.com",
+  "senha": "novaSenha789",
+  "tipoUsuario": "COMUM",
+  "telefone": "21997766554",
+  "latitude": -23.55052,
+  "longitude": -46.633308
+}
+
+testa inserção de sos
+
+{
+  "usuarioId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "latitude": -22.90278,
+  "longitude": -43.2075
+}
+
+Teste de inserção de abrigos
+
+{
+  "nome": "Abrigo Comunitário Esperança",
+  "capacidade": 150,
+  "ocupacaoAtual": 75,
+  "latitude": -22.911,
+  "longitude": -43.2094,
+  "responsavel": "Carlos Andrade"
+}
+
+testa inserção de drones
+
+{
+  "nome": "Drone Resgate Alpha",
+  "status": "ativo",
+  "localAtual": "Base Operacional Central",
+  "latitude": -22.908,
+  "longitude": -43.175
+}
+
+testa inserção de sensores
+
+{
+  "nome": "Sensor Rio Azul",
+  "localizacao": "Rio Azul, Centro",
+  "tipo": "NIVEL_AGUA"
+}
+
+testa inserção de leituras de sensores
+
+{
+  "sensorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "valor": 5.0,
+  "unidade": "cm"
+}
+
+teste de alerta de sensor
+
+{
+  "sensorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "tipo": "Nível de Água Elevado",
+  "mensagem": "Nível da água atingiu 250cm, risco de transbordamento.",
+  "nivel": "baixo"
+}
+
+
