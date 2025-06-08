@@ -2,7 +2,7 @@ Teste de inserção de usuários
 
 {
   "nome": "Maria Souza",
-  "email": "maria.so@example.com",
+  "email": "maria.so@example.com.br",
   "senha": "senhaForte123",
   "tipoUsuario": "DEFESA_CIVIL",
   "telefone": "21998877665",
@@ -12,12 +12,18 @@ Teste de inserção de usuários
 
 {
   "nome": "Maria Oliveira",
-  "email": "maria.ol@example.com",
+  "email": "maria.ol@example.com.br",
   "senha": "novaSenha789",
   "tipoUsuario": "COMUM",
   "telefone": "21997766554",
   "latitude": -23.55052,
   "longitude": -46.633308
+}
+
+login
+{
+"email": "maria.so@example.com.br",
+"password": "senhaForte123"
 }
 
 testa inserção de sos
