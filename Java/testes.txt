@@ -52,9 +52,11 @@ testa inserção de drones
 testa inserção de sensores
 
 {
-  "nome": "Sensor Rio Azul",
-  "localizacao": "Rio Azul, Centro",
-  "tipo": "NIVEL_AGUA"
+  "localizacao": "Ponte Rio-Niterói, Pilar 7",
+  "latitude": -22.8974,
+  "longitude": -43.1797,
+  "tipo": "Nível de Água Ultrassônico",
+  "ativo": "S"
 }
 
 testa inserção de leituras de sensores
