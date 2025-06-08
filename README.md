@@ -88,10 +88,6 @@ Para visualizar os logs dos containers no terminal:
 docker logs meu-oracle
 docker logs java
 ```
-Para parar os containers:
-```
-docker-compose down
-```
 
 ## 📂 Estrutura do Projeto
 ```
