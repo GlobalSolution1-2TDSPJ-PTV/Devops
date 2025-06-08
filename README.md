@@ -72,7 +72,7 @@ docker network create minha-rede
 
 docker run -d --name meu-oracle --network minha-rede -e ORACLE_PASSWORD=MinhaSenhaForte123 -e APP_USER=meuusuario -e APP_USER_PASSWORD=senha123 -p 1521:1521 -v oracle_data:/opt/oracle/oradata gvenzl/oracle-xe:21
 
-docker run -d --name java-tete --network minha-rede -p 8080:8080 java
+docker run -d --name java --network minha-rede -p 8080:8080 java
 ```
 
 ## 🌐 Acessando a API
@@ -86,7 +86,7 @@ Para visualizar os logs dos containers no terminal:
 
 ```
 docker logs meu-oracle
-docker logs java-tete
+docker logs java
 ```
 Para parar os containers:
 ```
